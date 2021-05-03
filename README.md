@@ -1,33 +1,7 @@
 # Express API Starter
 
-Credit to w3cj
-(https://www.github.com/w3cj)
-
-## Setup
-
+package 
 ```
-npm install
-```
-
-## Lint
-
-```
-npm run lint
-```
-
-## Test
-
-```
-npm run test
-```
-
-## Development
-
-```
-npm run dev
-```
-
-## Run 
-```
-npm start
+npm i @tensorflow/tfjs
+npm i @tensorflow-models/universal-sentence-encoder
 ```
