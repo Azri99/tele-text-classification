@@ -1,7 +1,7 @@
 {
   "name": "text-classification",
   "version": "1.0.0",
-  "description": "",
+  "description": "A telegram bot to detact if the text enter are disaster or not",
   "main": "app.js",
   "dependencies": {
     "bayes": "^1.0.0",
@@ -10,9 +10,13 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Ahmad Azri azrirazak01@gmail.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Azri99/express-api-starter.git"
+  },
+  "license": "MIT",
 }
