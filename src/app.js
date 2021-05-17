@@ -5,12 +5,11 @@ require('dotenv').config();
 
 const bot = new Telegraf(process.env.TELE_TOKEN);
 
-bot.start( (ctx) => ctx.reply('Welcome To Tweet Disaster Classification'));
+bot.start( (ctx) => ctx.reply('Welcome To Tweet Disaster Classification By Ahmad Azri'));
 bot.help((ctx) => ctx.reply('Will guess if the text enter are disaster tweet or not'));
 
 bot.on('text', async (ctx) => {
     const { text } = ctx.message;
-    text.trim() === '' && ctx.reply('Enter a statement about disaster');
     const result = await prediction(text.trim());
     const reply = result === positive ? 'Something bad is happening' : 'Its normal'; 
     ctx.reply(reply);
