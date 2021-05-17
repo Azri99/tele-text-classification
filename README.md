@@ -5,7 +5,7 @@ Using Bayes Method
 
 # installation
 * Clone the repo into your machine
-* Get a bot using (BotFather)[https://t.me/botfather] to get your token
+* Get a bot using [BotFather](https://t.me/botfather) to get your token
 * Rename ```.env.example``` to ```.env``` and paste your token
 * run ```npm install```
 
