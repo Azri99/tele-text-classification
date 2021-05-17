@@ -1,5 +1,5 @@
 {
-  "name": "text-classification",
+  "name": "tele-text-classification",
   "version": "1.0.0",
   "description": "A telegram bot to detact if the text enter are disaster or not",
   "main": "app.js",
@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "Ahmad Azri azrirazak01@gmail.com",
@@ -18,5 +18,5 @@
     "type": "git",
     "url": "https://github.com/Azri99/express-api-starter.git"
   },
-  "license": "MIT",
+  "license": "MIT"
 }
